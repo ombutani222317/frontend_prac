@@ -1,0 +1,108 @@
+a:first-child {
+    background-color: yellow;
+    color: red;
+}
+
+a:nth-child(4) {
+    background-color: yellow;
+    color: red;
+}
+
+h1:nth-last-child(22) {
+    background-color: yellow;
+    color: red;
+}
+
+h1:nth-child(6) {
+    background-color: yellow;
+    color: red;
+}
+
+body input:first-of-type {
+    background-color: yellow;
+    color: red;
+}
+
+section div h1:first-of-type {
+    background-color: yellow;
+    color: red;
+}
+
+div nav h1:first-child {
+    background-color: yellow;
+    color: red;
+}
+
+div nav h1:last-child {
+    background-color: yellow;
+    color: red;
+}
+
+.heading {
+    background-color: yellow;
+    color: red;
+}
+
+div:nth-of-type(2) h1:nth-child(2) {
+    background-color: yellow;
+    color: red;
+}
+
+.head {
+    background-color: yellow;
+    color: red;
+}
+
+span p:last-of-type {
+    background-color: yellow;
+    color: red;
+}
+
+.h1 {
+    background-color: yellow;
+    color: red;
+}
+
+div div div h1:nth-child(4) {
+    background-color: yellow;
+    color: red;
+}
+
+h1:nth-child(22) {
+    background-color: yellow;
+    color: red;
+}
+
+div:nth-last-child(7) div h1:nth-child(1) {
+    background-color: yellow;
+    color: red;
+}
+
+div span section :nth-child(5) {
+    background-color: yellow;
+    color: red;
+}
+
+a:nth-child(23) {
+    background-color: yellow;
+    color: red;
+}
+
+h1:nth-last-child(6) {
+    background-color: yellow;
+    color: red;
+}
+
+h1:nth-last-child(11) {
+    background-color: yellow;
+    color: red;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/28172953/pexels-photo-28172953.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+

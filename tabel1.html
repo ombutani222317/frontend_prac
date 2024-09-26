@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+        
+        
+            text-align: center;
+            border: 1px solid black;
+        }
+        th,td{
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>A test Table With Merge Cells</caption>
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="4">Seminer</th>
+        </tr>
+        <tr>
+
+            <th colspan="2">Average</th>
+            <th colspan="2" rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Monday</th>
+            <td rowspan="2" style="background-color: lightyellow;">8:00 a.m.</td>
+            <td rowspan="2" style="background-color: lavender;">5:00 p.m.</td>
+            <td>Indroduction to XML</td>
+        </tr>
+        <tr>
+            <td>Indroduction to XML</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Tuesday</th>
+            <td style="background-color: lightyellow;">8:00 a.m.</td>
+            <td style="background-color: lightyellow;">11:00 a.m.</td>
+            <td rowspan="2">Xpath</td>
+        </tr>
+        <tr>
+            <td style="background-color: lightyellow;">11:00 a.m.</td>
+            <td style="background-color: lightgreen;">2:00 p.m.</td>
+        </tr>
+        <tr>
+            <td style="background-color: lightgreen;">2:00 a.m.</td>
+            <td style="background-color: lavender;">5:00 p.m.</td>
+            <td rowspan="1.5">XSL transformation</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td style="background-color: lightyellow;">8:00 a.m.</td>
+            <td style="background-color: lightgreen;">12:00 p.m.</td>
+            <td>XSL Formatting Object</td>
+        </tr>
+    </table>
+</body>
+
+</html>
