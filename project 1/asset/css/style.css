@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -30,6 +31,7 @@ header {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
+
 .list li a:hover {
   color: rgb(247, 77, 47);
   transition: 0.15s;
@@ -58,6 +60,7 @@ header {
   border: none;
   transition: 0.6s;
 }
+
 .main-button:hover {
   background-color: white;
   color: rgb(37, 37, 37);
@@ -102,6 +105,7 @@ header {
   height: 100vh;
   padding: 100px;
 }
+
 .first-line {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -110,6 +114,7 @@ header {
   text-align: center;
   font-weight: 500;
 }
+
 .second-line {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
@@ -120,6 +125,7 @@ header {
   margin-bottom: 30px;
   text-align: center;
 }
+
 .third-line p {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -127,25 +133,31 @@ header {
   color: #4b4b4b;
   margin: 40px;
   word-spacing: 3px;
+  line-height: 25px;
 }
+
 .container {
   height: 1035px;
   width: 1140px;
   margin-left: 140px;
   margin-right: 140px;
 }
+
 .la-motorcycle {
   color: #ff4f5a;
   font-size: 60px;
 }
+
 .la-lightbulb {
   color: #ff4f5a;
   font-size: 60px;
 }
+
 .la-fighter-jet {
   color: #ff4f5a;
   font-size: 60px;
 }
+
 .la-pencil-ruler {
   color: #ff4f5a;
   font-size: 60px;
@@ -161,16 +173,19 @@ header {
   padding: 50px;
   text-align: center;
 }
+
 .box h3 {
   margin: 25px 0;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
 }
+
 .box p {
   font-family: "Montserrat", sans-serif;
   word-spacing: 2.5px;
   color: #787878;
 }
+
 .one1 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.188);
   padding: 80px 0 0px;
@@ -188,10 +203,11 @@ header {
   background-image: url(../images/asset\ 10.jpeg);
   background-repeat: no-repeat;
   margin-top: 300px;
-  padding: 100px;
+  padding: 100px 0;
 }
+
 .swiper {
-  width: 90%;
+  width: 80%;
   height: 100%;
 }
 
@@ -213,38 +229,115 @@ header {
 
 /* third page */
 
-.thirdpage{
-    width: 100%;
-    min-height: 100vh;
-    padding: 100px;
-}
-.container1{
-   
-    width: 1140px;
-    margin-left: 140px;
-    margin-right: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.thirdpage {
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
 }
 
-.side2 img{
-    width: 280px;
-    height: 560px;
-}
-.boxx{
-    text-align: center;
-    padding-bottom: 50px;
+.container1 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.boxx h3{
-    margin: 25px 0;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 24px;
+.side2 img {
+  width: 280px;
+  height: 560px;
 }
-.boxx p{
-    font-family: "Montserrat", sans-serif;
-    word-spacing: 2.5px;
-    color: #787878; 
+
+.boxx {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.boxx h3 {
+  margin: 25px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.boxx p {
+  font-family: "Montserrat", sans-serif;
+  word-spacing: 2.5px;
+  color: #2b2b2b;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.side {
+  padding: 0 60px;
+}
+
+.la-hippo {
+  color: #ff4f5a;
+  font-size: 40px;
+}
+
+.la-cog {
+  color: #ff4f5a;
+  font-size: 40px;
+}
+
+.la-laptop-code {
+  color: #ff4f5a;
+  font-size: 40px;
+}
+
+.la-folder-open {
+  color: #ff4f5a;
+  font-size: 40px;
+}
+
+
+/* foruthpage */
+
+.fourthpage {
+  width: 1423px;
+  height: 522px;
+  padding: 100px;
+  background-image: url(../images/asset\ 11.jpeg);
+  background-repeat: no-repeat;
+  background-position: center 112px ;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #fb7a82;
+} 
+
+.btn{
+  padding: 20px 50px;
+  background-color: white;
+  color: black;
+  border: 0;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  border: solid 1px #fff;
+  transition: 0.8s ease ;
+}
+.btn:hover{
+  padding: 20px 50px;
+  background-color: rgb(36, 36, 36);
+  color: rgb(255, 255, 255);
+  transition: 0.8s ease;
+  
+  border: 0;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  border: solid 1px #fff;
+}
+.fourth-line{
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #1f1f1f;
+  font-weight: 600;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-bottom: 30px;
+  text-align: center;
 }
