@@ -191,6 +191,17 @@
           </div>
           <div class="side2">
             <img src="asset/images/asset 6.png" alt="" />
+            <div class="img-top">
+              <div class="swiper ourSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide img"><img src="asset/images/asset 8.png" alt=""></div>
+                  <div class="swiper-slide img"><img src="asset/images/asset 7.png" alt=""></div>
+                  <div class="swiper-slide img"><img src="asset/images/asset 9.png" alt=""></div>
+                </div>
+              </div>
+            
+            </div>
+      
           </div>
           <div class="side">
             <div class="boxx">
@@ -255,5 +266,15 @@
         },
       });
     </script>
+          <script>
+            var swiper = new Swiper(".ourSwiper", {
+              slidesPerView: 1,
+              spaceBetween: 30,
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+              },
+            });
+          </script>
   </body>
 </html>
