@@ -48,7 +48,7 @@ header {
 
 .main-page {
   min-height: 550px;
-  background-color: #fcedee;
+  background-color: #f7dfe0;
   border-bottom-left-radius: 27%;
   font-family: "Montserrat", sans-serif;
   display: flex;
@@ -76,7 +76,7 @@ header {
 }
 
 .red {
-  color: rgb(247, 77, 47);
+  color: rgb(243, 60, 28);
   font-weight: 700;
 }
 
@@ -211,8 +211,8 @@ header {
   padding: 100px 0;
 }
 
-.myswiper {
-  width: 80%;
+.swiper {
+  width: 75%;
   height: 100%;
 }
 
@@ -227,9 +227,9 @@ header {
 
 .swiper-slide img {
   display: block;
-  width: 280px;
-  height: 500px;
-  object-fit: cover;
+  width: 262px;
+  height: 450px;
+  object-fit: cover !important;
 }
 
 
@@ -384,5 +384,17 @@ header {
   top: 3100px;
   left: 595px;
   overflow: hidden;
+}
+
+.ourswiper{
+  width: 100% !important;
+  height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img1{
+  width: 100%;
   object-fit: cover;
 }
