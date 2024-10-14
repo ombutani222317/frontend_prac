@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* header line */
+.header-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 6px 50px;
+}
+
+.header-icons i {
+    padding-left: 15px;
+}
+
+.mail i,
+.contact i {
+    padding-right: 8px;
+}
+
+/* navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.nav-middle ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-middle ul li {
+    padding: 0 50px;
+}
+.nav-right i {
+    padding-left: 15px;
+}

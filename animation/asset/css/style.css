@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.animation {
+    width: 2000px;
+    height: 2000px;
+    background-color: orangered;
+    animation-name: om;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    overflow: hidden;
+    /* animation-play-state: paused; */
+    border-radius: 100%;
+    position: absolute;
+    box-shadow: 10px 20px 40px salmon;
+    filter: blur(30px);
+}
+
+.animation1 {
+    width: 1000px;
+    height: 1000px;
+    background-color: rgba(255, 166, 0, 0.918);
+    animation-name: om1;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    overflow: hidden;
+    /* animation-play-state: paused; */
+    border-radius: 100%;
+    position: absolute;
+    box-shadow: 10px 20px 20px rgb(255, 255, 255);
+    filter: blur(70px);
+    overflow: hidden;
+}
+
+.animation2 {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    animation-name: om2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    overflow: hidden;
+    /* animation-play-state: paused; */
+    border-radius: 100%;
+    position: absolute;
+    box-shadow: 10px 20px 40px salmon;
+    /* filter: blur(30px); */
+}
+
+@keyframes om {
+    from {
+        transform: rotate(0deg) translatey(0px) translateX(0px);
+    }
+
+    to {
+        transform:rotate(360deg) translatey(300px) translateX(100px);
+    }
+}
+@keyframes om1 {
+    from {
+        transform:rotate(0deg) translatey(0px) translateX(0px);
+    }
+
+    to {
+        transform:rotate(360deg) translatey(-200px) translateX(100px);
+    }
+}
+@keyframes om2 {
+    from {
+        transform:rotate(0deg) translatey(0px) translateX(0px);
+    }
+
+    to {
+        transform:rotate(360deg) translatey(-100px) translateX(-50px);
+    }
+}
+
+
+

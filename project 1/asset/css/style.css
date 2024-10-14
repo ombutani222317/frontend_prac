@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
 }
 
+
 a {
   text-decoration: none;
   color: black;
@@ -298,7 +299,6 @@ header {
 .fourthpage {
   width: 1519px;
   height: 522px;
-  padding: 100px 0 100px 0;
   background-image: url(../images/asset\ 11.jpeg);
   background-repeat: no-repeat;
   position: sticky;
@@ -386,15 +386,33 @@ header {
   overflow: hidden;
 }
 
-.ourswiper{
+.ourswiper {
   width: 100% !important;
   height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.img1{
+.img1 {
   width: 100%;
   object-fit: cover;
 }
+
+.box i:hover {
+  transform: translateY(-15px);
+  transition: 1s all;
+}
+.overlay{
+  background-color: #f31c1c54;
+  width: 1519px;
+  height: 522px;
+  position: sticky;
+}
+
+.second-p{
+  padding-top: 100px;
+}
+
+
+/* media query  */  

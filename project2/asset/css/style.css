@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Qwitcher+Grypen:wght@400;700&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+section{
+    padding: 80px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    max-width: 1440px;
+    padding: 0 70px;
+    background-color: #FDECD2;
+}
+
+li {
+    list-style: none;
+}
+.logo{
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.nav {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav .nav-ul {
+    display: flex;
+
+}
+
+.nav .nav-ul li {
+    padding: 0.5em 1em;
+    font-size: 0.9vw;
+    font-weight: 700;
+    transition: color .2s;
+    text-transform: uppercase;
+}
+
+/* first page */
+
+.first{
+    width: 100%;
+    min-height:88vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-left{
+    text-align: center;
+}
+.first-left span{
+    font-size: 23px;
+}
+.first-left h1{
+    font-size:270px;
+    font-weight: 400;
+    font-family: "Qwitcher Grypen", cursive;
+}
+.first-left p{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Caveat", cursive;
+    padding: 0;
+}
+.first-left button{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 30px;
+    border-radius:10px;
+    background-color: black;
+    color:white;
+    transition: 0.9s ease-in;
+    margin-top: 20px;
+}
+.first-left button:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    transition: 0.9s ease-out;
+}
+.first-right img{
+    width: 400px;
+    border-radius: 50px;
+}
+
+
+/* cursor */
+/* .cursor {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+    pointer-events: none;
+
+} */
+
+/* .cursor::after {
+    content: "";
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    background-color: orangered;
+    filter: blur(20px);
+    border-radius: 50%;
+    opacity: .5;
+    top: -8px;
+    left: -8px;
+    animation: cursorAnim2 .5s infinite alternate;
+} */
+
+ /* @keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.7);
+    }
+}
+
+@keyframes cursorAnim2 {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.4);
+    }
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}  */
+
+.expand {
+    animation: cursorAnim3 .5s forwards;
+    border: 1px solid red;
+}
+
+/* video page  */
+
+.video video{
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* second section */
+
+.second{
+    width: 100%;
+    min-height: 100vh;
+}
+
+hr{
+    opacity: 0.45;
+}
+
+.contact a{
+background-color: black;
+padding: 10px 20px;
+border-radius: 20px;
+font-size: 15px;
+transition: 0.8s ease-in;
+color:#fff;
+}
+.contact a:hover{
+background-color: rgb(255, 255, 255);
+padding: 10px 20px;
+border-radius: 30px;
+font-size: 15px;
+transition: 0.8s ease-out;
+color:#020202;
+}
+
