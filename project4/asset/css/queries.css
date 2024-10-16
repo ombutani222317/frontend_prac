@@ -1,0 +1,15 @@
+/* MegaOne Start */
+
+/* 768px */
+
+@media (max-width:768px){
+    .top-menu .social-icons{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+}
