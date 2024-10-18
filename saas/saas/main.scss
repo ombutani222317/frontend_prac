@@ -1,0 +1,18 @@
+$bg-color: black;
+$bg-box-color: white;
+$w-200:200px;
+$h-200:200px;
+$m-100:100px;
+
+
+
+body {
+    background-color: $bg-color;
+}
+
+.box {
+    width: $w-200;
+    height: $h-200;
+    background-color: $bg-box-color;
+    margin: $m-100;
+}

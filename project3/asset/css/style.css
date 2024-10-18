@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
+      font-family: "Poppins", sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 
+section{
+    padding: 100px 0;
+}
 /* header line */
 .header-line {
     display: flex;
@@ -14,7 +26,7 @@
 }
 
 .header-icons i {
-    padding-left: 15px;
+    padding:0 15px;
 }
 
 .mail i,
@@ -39,7 +51,101 @@
 
 .nav-middle ul li {
     padding: 0 50px;
+    font-size: 18px;
 }
 .nav-right i {
-    padding-left: 15px;
+    padding:0 15px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.logo h1{
+    color: rgb(67, 165, 67);
+    font-size: 50px;
+    font-weight: 500;
+}
+
+/* first page */
+
+.first-slide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.right-first img{
+    width: 600px;
+    rotate: -23deg;
+}
+.left-first h2{
+        color: rgb(67, 165, 67);
+        font-weight: 600;
+        font-size: 50px;
+}
+.left-first h3{
+        font-weight: 600;
+        font-size: 20px;
+}
+.left-first p{
+        font-weight: 300;
+        font-size: 14px;
+        margin-top: 8px;
+}
+.left-first h2 span{
+        color: rgb(67, 165, 67);
+        font-weight: 300;
+        font-size: 40px;
+}
+
+.button-grp{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+.button-grp .a1{
+    border: 3px solid rgb(67, 165, 67);
+    margin-right: 10px;
+    padding: 5px 30px;
+    border-radius: 20px;
+    transition: 0.4s ease-in ;
+}
+.button-grp .a2{
+background-color:  rgb(67, 165, 67);
+    margin-right: 10px;
+    padding: 5px 30px;
+    border-radius: 20px;
+    transition: 0.4s ease-in ;
+}
+.button-grp .a2:hover{
+background-color:  white;
+border: 2px solid black;
+    transition: 0.4s ease-in ;
+}
+.button-grp .a1:hover{
+background-color: rgb(67, 165, 67);
+transition: 0.4s ease-out ;
+}
+
+/* swiper js */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 100px;
+  } 
+
+.second img{
+rotate: 0deg;
 }
