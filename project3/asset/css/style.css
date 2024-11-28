@@ -148,4 +148,5 @@ transition: 0.4s ease-out ;
 
 .second img{
 rotate: 0deg;
+height: auto;
 }
