@@ -448,3 +448,63 @@ header {
         }
     }
 }
+
+/* six  */
+.six{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.six-left{
+    padding:  0 25px;
+}
+.six-left img{
+    height: 100%;
+ width: 550px;
+    border: none;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 54%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    box-shadow: none;
+}
+
+.six-btn{
+    margin-top: 20px;
+    a {
+        font-weight: 600;
+        font-size: 16px;
+        background-color: #353f52;
+        color: white;
+        padding: 15px 25px;
+        border-radius: 8px;
+    }
+
+    i {
+        rotate: -35deg;
+        margin: 40px 8px;
+    }
+}
+
+.six-right h2{
+    font-size: 44px;
+    line-height: 52.8px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    color: #343f52;
+}
+.six-right h5{
+    font-size: 24px;
+    line-height: 38.4px;
+    letter-spacing: normal;
+    font-weight: 500;
+    color: #60697b;
+    margin: 20px 0;
+}
+.six-right p{
+    font-size: 17px;
+    line-height: 28.9px;
+    letter-spacing: normal;
+    font-weight: 500;
+    color: #60697b;
+}

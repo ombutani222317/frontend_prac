@@ -19,3 +19,5 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     alert('Thank you for your message!');
     this.reset(); // Reset form after submission
 });
+
+
